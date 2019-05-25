@@ -1,0 +1,6 @@
+framework module Pods_JustGo_iOSUITests {
+  umbrella header "Pods-JustGo-iOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
