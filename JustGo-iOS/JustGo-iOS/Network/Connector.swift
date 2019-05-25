@@ -19,7 +19,7 @@ public class Connector{
     private init(){ }
     
     func getRequest(_ subPath: API, method: RequestMethod, params: [String : Any]? = nil) -> URLRequest{
-        var urlStr = basePath + subPath.getPath()
+        var urlStr = baseUrl + subPath.getPath()
         
         if method == .get{
             var query = params?.map{ "\($0)=\($1)" }.reduce(""){ f, s -> String in "\(f)&\(s)" } ?? ""
@@ -55,7 +55,6 @@ public extension URLRequest{
                 return (code, decodeData)
             }
             .filter{ (code, _) in
-                guard let vc = vc else { return true }
                 if code == 500{ print("서버 오류") }
                 return code != 500
         }
