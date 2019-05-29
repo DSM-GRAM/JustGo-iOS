@@ -19,8 +19,8 @@
 		6839D8E1228DA927002C1135 /* JustGo_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6839D8E0228DA927002C1135 /* JustGo_iOSTests.swift */; };
 		6839D8EC228DA927002C1135 /* JustGo_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6839D8EB228DA927002C1135 /* JustGo_iOSUITests.swift */; };
 		6839D900228DA992002C1135 /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6839D8FF228DA992002C1135 /* Connector.swift */; };
-		6839D902228DA99C002C1135 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6839D901228DA99C002C1135 /* LoginViewModel.swift */; };
-		6839D904228DA9A6002C1135 /* TokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6839D903228DA9A6002C1135 /* TokenModel.swift */; };
+		6839D902228DA99C002C1135 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6839D901228DA99C002C1135 /* MainViewModel.swift */; };
+		6839D904228DA9A6002C1135 /* TourListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6839D903228DA9A6002C1135 /* TourListModel.swift */; };
 		6839D906228DA9AF002C1135 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6839D905228DA9AF002C1135 /* Base.swift */; };
 		96BB883BF21023F1E88655B2 /* Pods_JustGo_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F60D2D6C00A025C6D96B2C /* Pods_JustGo_iOS.framework */; };
 /* End PBXBuildFile section */
@@ -63,8 +63,8 @@
 		6839D8EB228DA927002C1135 /* JustGo_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustGo_iOSUITests.swift; sourceTree = "<group>"; };
 		6839D8ED228DA927002C1135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6839D8FF228DA992002C1135 /* Connector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
-		6839D901228DA99C002C1135 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		6839D903228DA9A6002C1135 /* TokenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenModel.swift; sourceTree = "<group>"; };
+		6839D901228DA99C002C1135 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		6839D903228DA9A6002C1135 /* TourListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourListModel.swift; sourceTree = "<group>"; };
 		6839D905228DA9AF002C1135 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 		A084DA383D832FDCDCABD5E1 /* Pods_JustGo_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JustGo_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0435002116046C88BEC2AF2 /* Pods-JustGo-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustGo-iOS.debug.xcconfig"; path = "Target Support Files/Pods-JustGo-iOS/Pods-JustGo-iOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -195,7 +195,7 @@
 		6839D8FC228DA947002C1135 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				6839D901228DA99C002C1135 /* LoginViewModel.swift */,
+				6839D901228DA99C002C1135 /* MainViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -203,7 +203,7 @@
 		6839D8FD228DA956002C1135 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				6839D903228DA9A6002C1135 /* TokenModel.swift */,
+				6839D903228DA9A6002C1135 /* TourListModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -461,10 +461,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6839D8CB228DA924002C1135 /* MainVC.swift in Sources */,
-				6839D904228DA9A6002C1135 /* TokenModel.swift in Sources */,
+				6839D904228DA9A6002C1135 /* TourListModel.swift in Sources */,
 				6839D900228DA992002C1135 /* Connector.swift in Sources */,
 				6839D8C9228DA924002C1135 /* AppDelegate.swift in Sources */,
-				6839D902228DA99C002C1135 /* LoginViewModel.swift in Sources */,
+				6839D902228DA99C002C1135 /* MainViewModel.swift in Sources */,
 				5954D99422992311005E5502 /* APIProtocol.swift in Sources */,
 				6839D906228DA9AF002C1135 /* Base.swift in Sources */,
 				6839D8D1228DA924002C1135 /* JustGo_iOS.xcdatamodeld in Sources */,

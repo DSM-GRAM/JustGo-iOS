@@ -9,7 +9,5 @@
 import Foundation
 
 protocol API {
-    
     func getPath() -> String
-    
 }
