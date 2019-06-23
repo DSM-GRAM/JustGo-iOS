@@ -5,11 +5,12 @@ target 'JustGo-iOS' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for JustGo-iOS
   pod 'RxSwift'
   pod 'RxAlamofire'
   pod 'Alamofire'
   pod 'RxCocoa'
+
+  # Pods for JustGo-iOS
 
   target 'JustGo-iOSTests' do
     inherit! :search_paths

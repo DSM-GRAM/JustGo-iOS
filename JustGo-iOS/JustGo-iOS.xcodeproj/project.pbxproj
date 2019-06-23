@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2DE8E67158D88BA83D7D2DA5 /* Pods_JustGo_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7BCC517D4B622C81638D3C4 /* Pods_JustGo_iOSTests.framework */; };
-		5678496063BE2065A814FF2E /* Pods_JustGo_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A084DA383D832FDCDCABD5E1 /* Pods_JustGo_iOSUITests.framework */; };
 		5954D99422992311005E5502 /* APIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5954D99322992311005E5502 /* APIProtocol.swift */; };
 		683739B4229EA04F00EFBC89 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683739B3229EA04F00EFBC89 /* Api.swift */; };
 		6839D8C9228DA924002C1135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6839D8C8228DA924002C1135 /* AppDelegate.swift */; };
@@ -23,7 +21,13 @@
 		6839D902228DA99C002C1135 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6839D901228DA99C002C1135 /* MainViewModel.swift */; };
 		6839D904228DA9A6002C1135 /* TourListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6839D903228DA9A6002C1135 /* TourListModel.swift */; };
 		6839D906228DA9AF002C1135 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6839D905228DA9AF002C1135 /* Base.swift */; };
-		96BB883BF21023F1E88655B2 /* Pods_JustGo_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F60D2D6C00A025C6D96B2C /* Pods_JustGo_iOS.framework */; };
+		68B2699522B9C3DF006BFC7B /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B2699422B9C3DF006BFC7B /* Shape.swift */; };
+		68B2699722B9D30A006BFC7B /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B2699622B9D30A006BFC7B /* Color.swift */; };
+		68B2699922BA132E006BFC7B /* MainApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B2699822BA132E006BFC7B /* MainApi.swift */; };
+		68B2699B22BA246A006BFC7B /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B2699A22BA246A006BFC7B /* ViewModelType.swift */; };
+		B521AC9BDA7F7A67F50ED938 /* Pods_JustGo_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76413320F344FD6BC783373 /* Pods_JustGo_iOS.framework */; };
+		C5299041C0707AE20F1F398B /* Pods_JustGo_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A867389DC78EC1A3BE65DF1 /* Pods_JustGo_iOSUITests.framework */; };
+		DB7B8054B9AB1687C71E6A4D /* Pods_JustGo_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6420392BD556ADD44324B0 /* Pods_JustGo_iOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,14 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D356AE165CE157BA388D2C4 /* Pods-JustGo-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustGo-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JustGo-iOS/Pods-JustGo-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		0F1192AC8BB4C66DAA299CCB /* Pods-JustGo-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustGo-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JustGo-iOSTests/Pods-JustGo-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		1567C423B384A84953406AB5 /* Pods-JustGo-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustGo-iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-JustGo-iOSUITests/Pods-JustGo-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		21E6AF35DB7A59DA0A8E6BD9 /* Pods-JustGo-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustGo-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-JustGo-iOS/Pods-JustGo-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		24F60D2D6C00A025C6D96B2C /* Pods_JustGo_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JustGo_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		100E3B654E9F7C01153E8598 /* Pods-JustGo-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustGo-iOSTests.release.xcconfig"; path = "Target Support Files/Pods-JustGo-iOSTests/Pods-JustGo-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		4A867389DC78EC1A3BE65DF1 /* Pods_JustGo_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JustGo_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5954D99322992311005E5502 /* APIProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProtocol.swift; sourceTree = "<group>"; };
-		59DA12331F5C310D58E2A400 /* Pods-JustGo-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustGo-iOSTests.release.xcconfig"; path = "Target Support Files/Pods-JustGo-iOSTests/Pods-JustGo-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		64FAC38B0226B4185BAF3330 /* Pods-JustGo-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustGo-iOS.release.xcconfig"; path = "Target Support Files/Pods-JustGo-iOS/Pods-JustGo-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		683739B3229EA04F00EFBC89 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		6839D8C5228DA924002C1135 /* JustGo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JustGo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6839D8C8228DA924002C1135 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,14 +70,17 @@
 		6839D901228DA99C002C1135 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		6839D903228DA9A6002C1135 /* TourListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourListModel.swift; sourceTree = "<group>"; };
 		6839D905228DA9AF002C1135 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
-		A084DA383D832FDCDCABD5E1 /* Pods_JustGo_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JustGo_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF34F8EF961C7DEFF0A28F19 /* Pods-JustGo-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustGo-iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JustGo-iOSUITests/Pods-JustGo-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		B0435002116046C88BEC2AF2 /* Pods-JustGo-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustGo-iOS.debug.xcconfig"; path = "Target Support Files/Pods-JustGo-iOS/Pods-JustGo-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		C26A1FF380E6F73FE9D019AE /* Pods-JustGo-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustGo-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JustGo-iOSTests/Pods-JustGo-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		D21B14CFB1FCABFDE03E7C73 /* Pods-JustGo-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustGo-iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JustGo-iOSUITests/Pods-JustGo-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
-		DCD32BBDE57AB730515A8BDD /* Pods-JustGo-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustGo-iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-JustGo-iOSUITests/Pods-JustGo-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
-		F7BCC517D4B622C81638D3C4 /* Pods_JustGo_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JustGo_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F87BCFBB1B0982A3304B0CEC /* Pods-JustGo-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustGo-iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-JustGo-iOSTests/Pods-JustGo-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		68B2699422B9C3DF006BFC7B /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		68B2699622B9D30A006BFC7B /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		68B2699822BA132E006BFC7B /* MainApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApi.swift; sourceTree = "<group>"; };
+		68B2699A22BA246A006BFC7B /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		8B736E0BDFEF7F965D2CB7F5 /* Pods-JustGo-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustGo-iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-JustGo-iOSTests/Pods-JustGo-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F69F0C90D115372D209BCD7 /* Pods-JustGo-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustGo-iOS.release.xcconfig"; path = "Target Support Files/Pods-JustGo-iOS/Pods-JustGo-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		9361E1739FFBF2892202BBE6 /* Pods-JustGo-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustGo-iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-JustGo-iOSUITests/Pods-JustGo-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA6420392BD556ADD44324B0 /* Pods_JustGo_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JustGo_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50CABFAA6FD6D64C6DCAD5B /* Pods-JustGo-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustGo-iOS.debug.xcconfig"; path = "Target Support Files/Pods-JustGo-iOS/Pods-JustGo-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E76413320F344FD6BC783373 /* Pods_JustGo_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JustGo_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B6E2184D532C7C65C14175 /* Pods-JustGo-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustGo-iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-JustGo-iOSUITests/Pods-JustGo-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96BB883BF21023F1E88655B2 /* Pods_JustGo_iOS.framework in Frameworks */,
+				B521AC9BDA7F7A67F50ED938 /* Pods_JustGo_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DE8E67158D88BA83D7D2DA5 /* Pods_JustGo_iOSTests.framework in Frameworks */,
+				DB7B8054B9AB1687C71E6A4D /* Pods_JustGo_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5678496063BE2065A814FF2E /* Pods_JustGo_iOSUITests.framework in Frameworks */,
+				C5299041C0707AE20F1F398B /* Pods_JustGo_iOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				5954D99322992311005E5502 /* APIProtocol.swift */,
+				68B2699822BA132E006BFC7B /* MainApi.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -125,7 +128,7 @@
 				6839D8EA228DA927002C1135 /* JustGo-iOSUITests */,
 				6839D8C6228DA924002C1135 /* Products */,
 				E1E285AEA111B8E3C1C12605 /* Pods */,
-				A165EC8CF5B64B7369A4BD34 /* Frameworks */,
+				BCEBD7A0B4595847C1218B01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -221,16 +224,19 @@
 			isa = PBXGroup;
 			children = (
 				6839D905228DA9AF002C1135 /* Base.swift */,
+				68B2699422B9C3DF006BFC7B /* Shape.swift */,
+				68B2699622B9D30A006BFC7B /* Color.swift */,
+				68B2699A22BA246A006BFC7B /* ViewModelType.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
 		};
-		A165EC8CF5B64B7369A4BD34 /* Frameworks */ = {
+		BCEBD7A0B4595847C1218B01 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				24F60D2D6C00A025C6D96B2C /* Pods_JustGo_iOS.framework */,
-				F7BCC517D4B622C81638D3C4 /* Pods_JustGo_iOSTests.framework */,
-				A084DA383D832FDCDCABD5E1 /* Pods_JustGo_iOSUITests.framework */,
+				E76413320F344FD6BC783373 /* Pods_JustGo_iOS.framework */,
+				AA6420392BD556ADD44324B0 /* Pods_JustGo_iOSTests.framework */,
+				4A867389DC78EC1A3BE65DF1 /* Pods_JustGo_iOSUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -238,18 +244,12 @@
 		E1E285AEA111B8E3C1C12605 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B0435002116046C88BEC2AF2 /* Pods-JustGo-iOS.debug.xcconfig */,
-				64FAC38B0226B4185BAF3330 /* Pods-JustGo-iOS.release.xcconfig */,
-				F87BCFBB1B0982A3304B0CEC /* Pods-JustGo-iOSTests.debug.xcconfig */,
-				59DA12331F5C310D58E2A400 /* Pods-JustGo-iOSTests.release.xcconfig */,
-				1567C423B384A84953406AB5 /* Pods-JustGo-iOSUITests.debug.xcconfig */,
-				DCD32BBDE57AB730515A8BDD /* Pods-JustGo-iOSUITests.release.xcconfig */,
-				0D356AE165CE157BA388D2C4 /* Pods-JustGo-iOS.debug.xcconfig */,
-				21E6AF35DB7A59DA0A8E6BD9 /* Pods-JustGo-iOS.release.xcconfig */,
-				0F1192AC8BB4C66DAA299CCB /* Pods-JustGo-iOSTests.debug.xcconfig */,
-				C26A1FF380E6F73FE9D019AE /* Pods-JustGo-iOSTests.release.xcconfig */,
-				AF34F8EF961C7DEFF0A28F19 /* Pods-JustGo-iOSUITests.debug.xcconfig */,
-				D21B14CFB1FCABFDE03E7C73 /* Pods-JustGo-iOSUITests.release.xcconfig */,
+				B50CABFAA6FD6D64C6DCAD5B /* Pods-JustGo-iOS.debug.xcconfig */,
+				8F69F0C90D115372D209BCD7 /* Pods-JustGo-iOS.release.xcconfig */,
+				8B736E0BDFEF7F965D2CB7F5 /* Pods-JustGo-iOSTests.debug.xcconfig */,
+				100E3B654E9F7C01153E8598 /* Pods-JustGo-iOSTests.release.xcconfig */,
+				9361E1739FFBF2892202BBE6 /* Pods-JustGo-iOSUITests.debug.xcconfig */,
+				E9B6E2184D532C7C65C14175 /* Pods-JustGo-iOSUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -261,11 +261,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6839D8F0228DA927002C1135 /* Build configuration list for PBXNativeTarget "JustGo-iOS" */;
 			buildPhases = (
-				2C10B5FE1E085D18B8A317DE /* [CP] Check Pods Manifest.lock */,
+				F42A223EE6036BB9AC4C1BF3 /* [CP] Check Pods Manifest.lock */,
 				6839D8C1228DA924002C1135 /* Sources */,
 				6839D8C2228DA924002C1135 /* Frameworks */,
 				6839D8C3228DA924002C1135 /* Resources */,
-				08C9ADE4E1D053EC82EC1C92 /* [CP] Embed Pods Frameworks */,
+				95E62AF6271F288595B56FF2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -280,7 +280,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6839D8F3228DA927002C1135 /* Build configuration list for PBXNativeTarget "JustGo-iOSTests" */;
 			buildPhases = (
-				29A27D97BF5B02A34ADCD1F6 /* [CP] Check Pods Manifest.lock */,
+				EA2A796B8645787909046733 /* [CP] Check Pods Manifest.lock */,
 				6839D8D8228DA927002C1135 /* Sources */,
 				6839D8D9228DA927002C1135 /* Frameworks */,
 				6839D8DA228DA927002C1135 /* Resources */,
@@ -299,7 +299,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6839D8F6228DA927002C1135 /* Build configuration list for PBXNativeTarget "JustGo-iOSUITests" */;
 			buildPhases = (
-				44D3384CAF8BF275F446F7EF /* [CP] Check Pods Manifest.lock */,
+				DBDEAD45AE7285121D2E2CBA /* [CP] Check Pods Manifest.lock */,
 				6839D8E3228DA927002C1135 /* Sources */,
 				6839D8E4228DA927002C1135 /* Frameworks */,
 				6839D8E5228DA927002C1135 /* Resources */,
@@ -385,7 +385,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		08C9ADE4E1D053EC82EC1C92 /* [CP] Embed Pods Frameworks */ = {
+		95E62AF6271F288595B56FF2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -393,75 +393,16 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JustGo-iOS/Pods-JustGo-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-JustGo-iOS/Pods-JustGo-iOS-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JustGo-iOS/Pods-JustGo-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JustGo-iOS/Pods-JustGo-iOS-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JustGo-iOS/Pods-JustGo-iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		29A27D97BF5B02A34ADCD1F6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-JustGo-iOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2C10B5FE1E085D18B8A317DE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-JustGo-iOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		44D3384CAF8BF275F446F7EF /* [CP] Check Pods Manifest.lock */ = {
+		DBDEAD45AE7285121D2E2CBA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -483,6 +424,50 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EA2A796B8645787909046733 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JustGo-iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F42A223EE6036BB9AC4C1BF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JustGo-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -492,13 +477,17 @@
 			files = (
 				683739B4229EA04F00EFBC89 /* Api.swift in Sources */,
 				6839D8CB228DA924002C1135 /* MainVC.swift in Sources */,
+				68B2699722B9D30A006BFC7B /* Color.swift in Sources */,
 				6839D904228DA9A6002C1135 /* TourListModel.swift in Sources */,
 				6839D900228DA992002C1135 /* Connector.swift in Sources */,
 				6839D8C9228DA924002C1135 /* AppDelegate.swift in Sources */,
+				68B2699522B9C3DF006BFC7B /* Shape.swift in Sources */,
 				6839D902228DA99C002C1135 /* MainViewModel.swift in Sources */,
 				5954D99422992311005E5502 /* APIProtocol.swift in Sources */,
 				6839D906228DA9AF002C1135 /* Base.swift in Sources */,
 				6839D8D1228DA924002C1135 /* JustGo_iOS.xcdatamodeld in Sources */,
+				68B2699922BA132E006BFC7B /* MainApi.swift in Sources */,
+				68B2699B22BA246A006BFC7B /* ViewModelType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -671,7 +660,7 @@
 		};
 		6839D8F1228DA927002C1135 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D356AE165CE157BA388D2C4 /* Pods-JustGo-iOS.debug.xcconfig */;
+			baseConfigurationReference = B50CABFAA6FD6D64C6DCAD5B /* Pods-JustGo-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -690,7 +679,7 @@
 		};
 		6839D8F2228DA927002C1135 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21E6AF35DB7A59DA0A8E6BD9 /* Pods-JustGo-iOS.release.xcconfig */;
+			baseConfigurationReference = 8F69F0C90D115372D209BCD7 /* Pods-JustGo-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -709,7 +698,7 @@
 		};
 		6839D8F4228DA927002C1135 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F1192AC8BB4C66DAA299CCB /* Pods-JustGo-iOSTests.debug.xcconfig */;
+			baseConfigurationReference = 8B736E0BDFEF7F965D2CB7F5 /* Pods-JustGo-iOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -731,7 +720,7 @@
 		};
 		6839D8F5228DA927002C1135 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C26A1FF380E6F73FE9D019AE /* Pods-JustGo-iOSTests.release.xcconfig */;
+			baseConfigurationReference = 100E3B654E9F7C01153E8598 /* Pods-JustGo-iOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -753,7 +742,7 @@
 		};
 		6839D8F7228DA927002C1135 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF34F8EF961C7DEFF0A28F19 /* Pods-JustGo-iOSUITests.debug.xcconfig */;
+			baseConfigurationReference = 9361E1739FFBF2892202BBE6 /* Pods-JustGo-iOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -774,7 +763,7 @@
 		};
 		6839D8F8228DA927002C1135 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D21B14CFB1FCABFDE03E7C73 /* Pods-JustGo-iOSUITests.release.xcconfig */;
+			baseConfigurationReference = E9B6E2184D532C7C65C14175 /* Pods-JustGo-iOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

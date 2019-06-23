@@ -9,7 +9,7 @@
 import Foundation
 
 protocol Main {
-    
+   
 }
 
 class MainAPI: Main {
